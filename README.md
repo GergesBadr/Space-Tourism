@@ -16,8 +16,8 @@ HTML, CSS, JS and JSON
 ## Demo
 ![preview](https://github.com/GergesBadr/Space-Tourism/assets/110337209/6caea4b7-e9d8-420b-bdba-14c335a41d8a)
 
-Demo: 
-Frontend mentor solution: 
+Demo: https://gergesbadr.github.io/Space-Tourism/
+Frontend mentor solution: https://www.frontendmentor.io/solutions/space-tourism-multipage-website-V9Mc5XWuez
 
 
 ## 🚀 About Me
