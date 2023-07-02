@@ -1,4 +1,4 @@
-![logo](https://github.com/GergesBadr/Space-Tourism/assets/110337209/eefda899-9219-4a53-b472-9aca351e923d)
+![logo](https://github.com/GergesBadr/Space-Tourism/assets/110337209/94f81d42-9313-4e3c-8527-ab5710553f13)
 
 
 # Space Tourism
@@ -14,10 +14,10 @@ If you have any feedback, Fell free to contact with me on my [LinkedIn](https://
 HTML, CSS, JS and JSON
 
 ## Demo
-![preview](https://github.com/GergesBadr/Space-Tourism/assets/110337209/74d2f143-e9fd-4f0d-8b09-6913505bc871)
+![preview](https://github.com/GergesBadr/Space-Tourism/assets/110337209/6caea4b7-e9d8-420b-bdba-14c335a41d8a)
 
-Demo: 
-Frontend mentor solution: 
+Demo: https://gergesbadr.github.io/Space-Tourism/
+Frontend mentor solution: https://www.frontendmentor.io/solutions/space-tourism-multipage-website-V9Mc5XWuez
 
 
 ## 🚀 About Me
