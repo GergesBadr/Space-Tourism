@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Well, sit back, and relax because we'll give you a truly out of this world experience!"
+    />
+    <title>Space Tourism | Crew</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/shared/logo.svg" />
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="crew-bg pb-6 font-condensed md:pb-0">
+    <header class="px-6 py-8 lg:h-[190px] lg:pr-0">
+      <nav class="flex items-center justify-between">
+        <div>
+          <img src="./assets/shared/logo.svg" alt="logo" />
+        </div>
+        <div
+          class="ml-auto hidden h-[1px] w-[400px] bg-white/25 lg:block"
+        ></div>
+        <div
+          id="nav-links"
+          class="fixed right-0 top-0 z-10 hidden h-screen w-64 bg-black/5 px-8 pt-28 backdrop-blur-[90px] duration-500 md:block md:h-auto md:w-auto md:py-8 lg:relative lg:pl-32 lg:pr-40"
+        >
+          <ul class="flex flex-col gap-8 md:flex-row">
+            <li>
+              <a
+                href="index.html"
+                class="nav-link border-b-transparent text-lg text-white duration-200 hover:border-b-white/40 md:border-b-2 md:pb-8"
+              >
+                <span
+                  class="pages-counter mr-3 font-bold md:hidden lg:inline-block"
+                ></span>
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="destination.html"
+                class="nav-link border-b-transparent text-lg text-white duration-200 hover:border-b-white/40 md:border-b-2 md:pb-8"
+              >
+                <span
+                  class="pages-counter mr-3 font-bold md:hidden lg:inline-block"
+                ></span>
+                <span>destination</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="crew.html"
+                class="nav-link active border-b-transparent text-lg text-white duration-200 hover:border-b-white/40 md:border-b-2 md:pb-8"
+              >
+                <span
+                  class="pages-counter mr-3 font-bold md:hidden lg:inline-block"
+                ></span>
+                <span>crew</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="technology.html"
+                class="nav-link border-b-transparent text-lg text-white duration-200 hover:border-b-white/40 md:border-b-2 md:pb-8"
+              >
+                <span
+                  class="pages-counter mr-3 font-bold md:hidden lg:inline-block"
+                ></span>
+                <span>technology</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="relative z-50 h-6 w-6 md:hidden">
+          <img
+            src="./assets/shared/icon-hamburger.svg"
+            alt="icon-hamburger"
+            id="icon-hamburger"
+            class="absolute h-full w-full cursor-pointer"
+          />
+          <img
+            src="./assets/shared/icon-close.svg"
+            alt="icon-close"
+            id="icon-close"
+            class="absolute hidden h-full w-full cursor-pointer"
+          />
+        </div>
+      </nav>
+    </header>
+    <main
+      class="flex flex-col items-center gap-8 px-6 pb-14 md:flex-col-reverse md:px-36 lg:mt-0 lg:h-[calc(100vh-190px)] lg:flex-row-reverse lg:justify-between lg:px-40"
+    >
+      <div class="text-center md:order-1 md:mr-auto lg:hidden">
+        <span class="mr-3 font-bold opacity-30">02</span>
+        <span>Meet your crew</span>
+      </div>
+      <div>
+        <img
+          src="./assets/crew/image-douglas-hurley.png"
+          alt="douglas-hurley photo"
+          id="crew-img"
+          class="mt-8 w-72 animate-showFromTop md:w-96 lg:w-[500px]"
+        />
+      </div>
+      <div
+        class="animate-showFromTop gap-8 border-t-2 border-t-white/50 pt-8 md:mt-7 md:flex md:flex-col-reverse md:border-t-transparent md:pt-0"
+      >
+        <ul
+          class="mb-5 flex items-center justify-center gap-6 lg:justify-start"
+        >
+          <li class="crew-dot active" title="Douglas Hurley"></li>
+          <li class="crew-dot" title="Mark Shuttleworth"></li>
+          <li class="crew-dot" title="Victor Glover"></li>
+          <li class="crew-dot" title="Anousheh Ansari"></li>
+        </ul>
+        <div class="text-center lg:text-left">
+          <span id="crew-role" class="text-white opacity-50">Commander</span>
+          <h2
+            id="crew-name"
+            class="mb-2 mt-2 font-bellefair text-5xl uppercase text-white md:text-6xl lg:text-7xl"
+          >
+            Douglas Hurley
+          </h2>
+          <p id="crew-bio">
+            Douglas Gerald Hurley is an American engineer, former Marine Corps
+            pilot and former NASA astronaut. He launched into space for the
+            third time as commander of Crew Dragon Demo-2.
+          </p>
+        </div>
+        <div class="hidden text-center lg:mb-28 lg:block lg:text-left">
+          <span class="mr-3 font-bold opacity-30">02</span>
+          <span>Meet your crew</span>
+        </div>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>

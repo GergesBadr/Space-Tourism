@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Well, sit back, and relax because we'll give you a truly out of this world experience!"
+    />
+    <title>Space Tourism | Home</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/shared/logo.svg" />
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="home-bg pb-6 font-condensed md:pb-0">
+    <header class="px-6 py-8 lg:h-[190px] lg:pr-0">
+      <nav class="flex items-center justify-between">
+        <div>
+          <img src="./assets/shared/logo.svg" alt="logo" />
+        </div>
+        <div
+          class="ml-auto hidden h-[1px] w-[400px] bg-white/25 lg:block"
+        ></div>
+        <div
+          id="nav-links"
+          class="fixed right-0 top-0 z-10 hidden h-screen w-64 bg-black/5 px-8 pt-28 backdrop-blur-[90px] duration-500 md:block md:h-auto md:w-auto md:py-8 lg:relative lg:pl-32 lg:pr-40"
+        >
+          <ul class="flex flex-col gap-8 md:flex-row">
+            <li>
+              <a
+                href="index.html"
+                class="nav-link active border-b-transparent text-lg text-white duration-200 hover:border-b-white/40 md:border-b-2 md:pb-8"
+              >
+                <span
+                  class="pages-counter mr-3 font-bold md:hidden lg:inline-block"
+                ></span>
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="destination.html"
+                class="nav-link border-b-transparent text-lg text-white duration-200 hover:border-b-white/40 md:border-b-2 md:pb-8"
+              >
+                <span
+                  class="pages-counter mr-3 font-bold md:hidden lg:inline-block"
+                ></span>
+                <span>destination</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="crew.html"
+                class="nav-link border-b-transparent text-lg text-white duration-200 hover:border-b-white/40 md:border-b-2 md:pb-8"
+              >
+                <span
+                  class="pages-counter mr-3 font-bold md:hidden lg:inline-block"
+                ></span>
+                <span>crew</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="technology.html"
+                class="nav-link border-b-transparent text-lg text-white duration-200 hover:border-b-white/40 md:border-b-2 md:pb-8"
+              >
+                <span
+                  class="pages-counter mr-3 font-bold md:hidden lg:inline-block"
+                ></span>
+                <span>technology</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="relative z-50 h-6 w-6 md:hidden">
+          <img
+            src="./assets/shared/icon-hamburger.svg"
+            alt="icon-hamburger"
+            id="icon-hamburger"
+            class="absolute h-full w-full cursor-pointer"
+          />
+          <img
+            src="./assets/shared/icon-close.svg"
+            alt="icon-close"
+            id="icon-close"
+            class="absolute hidden h-full w-full cursor-pointer"
+          />
+        </div>
+      </nav>
+    </header>
+    <main
+      class="flex flex-col items-center gap-8 px-6 pb-14 md:px-36 lg:mt-0 lg:h-[calc(100vh-190px)] lg:flex-row lg:justify-between lg:px-40"
+    >
+      <div class="animate-showFromTop text-center text-white lg:text-left">
+        <span>So, you want to travel to</span>
+        <h1>space</h1>
+        <p>
+          Let's face it; if you want to go to space, you might as well genuinely
+          go to outer space and not hover kind of on the edge of it. Well sit
+          back, and relax because we'll give you a truly out of this world
+          experience!
+        </p>
+      </div>
+      <div
+        class="relative animate-showFromTop before:absolute before:left-1/2 before:top-1/2 before:-z-10 before:h-full before:w-full before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:bg-white/10 before:duration-500 hover:before:h-[calc(100%+100px)] hover:before:w-[calc(100%+100px)] hover:before:animate-pulse"
+      >
+        <a
+          href="destination.html"
+          class="flex h-40 w-40 items-center justify-center rounded-full bg-white text-xl uppercase tracking-widest text-[#0B0D17] lg:h-60 lg:w-60 lg:text-3xl"
+          >Explore</a
+        >
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
